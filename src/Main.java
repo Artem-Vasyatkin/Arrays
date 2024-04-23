@@ -42,7 +42,7 @@ public class Main {
         System.out.println("Homework");
         System.out.println("Task №1\n");
 
-        int[] numbers = new int[12];
+        int[] numbers = new int[3];
         numbers[0] = 1;
         numbers[1] = 2;
         numbers[2] = 3;
@@ -58,21 +58,21 @@ public class Main {
         }
 
         System.out.println("Task №2\n");
-        int[] arrayElements = {1, 2, 3};
-        for (int z = 0; z < arrayElements.length - 1; z++) {
-            System.out.print(arrayElements[z] + ", ");
+
+        for (int z = 0; z < numbers.length - 1; z++) {
+            System.out.print(numbers[z] + ", ");
         }
-        System.out.println(arrayElements[arrayElements.length - 1]);
+        System.out.println(numbers[numbers.length - 1]);
 
         System.out.println("Task №2.1\n");
 
-        double[] arrays = {1.57, 7.654, 9.986};
-        for (int z = 0; z < arrays.length - 1; z++) {
-            System.out.print(arrays[z] + ", ");
+        for (int z = 0; z < fractionalNumbers.length - 1; z++) {
+            System.out.print(fractionalNumbers[z] + ", ");
         }
-        System.out.println(arrays[arrays.length - 1]);
+        System.out.println(fractionalNumbers[fractionalNumbers.length - 1]);
 
         System.out.println("Task №3\n");
+
         int[] a = new int[]{1, 2, 3};
         double[] b = {1.57, 7.654, 9.986};
 
@@ -92,14 +92,16 @@ public class Main {
             }
         }
 
+        System.out.println();
+
         System.out.println("Task №4\n");
 
-        int[] g = {1, 2, 3};
-        for (int m = 0; m < g.length; m++) {
-            if (g[m] % 2 != 0) {
-                g[m] = g[m] + 1;
+
+        for (int m = 0; m < numbers.length; m++) {
+            if (numbers[m] % 2 != 0) {
+                numbers[m] = numbers[m] + 1;
             }
-            System.out.print(g[m] + ", ");
+            System.out.print(numbers[m] + ", ");
         }
     }
 
